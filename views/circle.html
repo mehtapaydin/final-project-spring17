@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Snow and Circles</title>
+    <link rel="stylesheet" href='/styles/style.css'>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.2/paper-full.min.js"></script>
+    <!--when open that and close the one in the body below, it is animating :) -->
+    <script type="text/paperscript" src="js/circle.js" canvas="circleCanvas"></script>
+</head>
+
+<body>
+<canvas id="circleCanvas" resize stats hidpi="off"></canvas>
+<script type="text/paperscript" src="js/snow.js" canvas="circleCanvas"></script>
+<!-- <script type="text/paperscript" src="js/circle.js" canvas="circleCanvas"></script>-->
+<svg id="circle" version="1.1" style="width:500px; height:1000px;" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="40" cy="300" r="20" style="fill:orange;stroke:yellow;stroke-width:2px;stroke-dasharray:3px"/>
+</svg>
+</body>
+
+</html>
